@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head><meta charset="UTF-8"><title>Praktikum JavaScript</title></head>
+<body>
+  <h2>Praktikum Basic JavaScript</h2>
+  <p>Lihat hasil melalui Console (F12).</p>
+  <script>
+
+    const nama = "Rambo";
+    const tugas = 55;
+    const uts = 53;
+    const uas = 54;
+
+   const nilaiAkhir = tugas * 0.30 + uts * 0.30 + uas * 0.40;
+
+    let status;
+    if (nilaiAkhir >= 60) {
+      status = "LULUS";
+    } else {
+      status = "TIDAK LULUS";
+    }
+
+    console.log("Nama mahasiswa:", nama);
+    console.log("Nilai akhir:", nilaiAkhir);
+    console.log("Status kelulusan:", status);
+  </script>
+</body>
+</html>
